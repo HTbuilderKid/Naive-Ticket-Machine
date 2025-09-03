@@ -65,6 +65,14 @@ class TicketMachine
     {
         return status;
     }
+    
+        /**
+     * Return the total amount of money in the machine.
+     */
+    public int getTotal()
+    {
+        return total + balance;
+    }
 
     /**
      * Print a ticket.
