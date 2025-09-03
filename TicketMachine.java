@@ -25,9 +25,9 @@ class TicketMachine
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int cost)
+    public TicketMachine(int price)
     {
-        price = cost;
+        price = price;
         balance = 0;
         total = 0;
         status = 0;
@@ -73,6 +73,14 @@ class TicketMachine
     {
         return total + balance;
     }
+    
+        /**
+     * Print the message that tells the user to insert the right amount of money.
+     */
+    public void prompt()
+    {
+        System.out.println("Please insert the correct amount of money.");
+    }
 
     /**
      * Print a ticket.
@@ -87,6 +95,7 @@ class TicketMachine
         System.out.println("# Ticket");
         System.out.println("# " + price + " cents.");
         System.out.println("##################");
+        System.out.println("My cat has green eyes.");
         System.out.println();
 
         // Update the total collected with the balance.
