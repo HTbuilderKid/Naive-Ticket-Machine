@@ -1,14 +1,1 @@
-Project: naive-ticket-machine
-Authors: David Barnes and Michael Kölling
-
-This project is part of the material for the book
-
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
-   Pearson Education
-
-It is discussed in chapter 2.
-
-Purpose of project: To illustrate the basics of fields, constructors, and methods.
-How to start this project: Create one or more TicketMachine objects.
+You cannot delete the word "class" from the TicketMachine's outer wrapper because it basically removes the entire class (which means that we no longer have a class, just as if we removed the entire frame of a building. You still have all the furnitures left, but you can't live in it).
