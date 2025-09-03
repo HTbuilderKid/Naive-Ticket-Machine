@@ -1,1 +1,1 @@
-
+You cannot delete the word "class" from the TicketMachine's outer wrapper because it basically removes the entire class (which means that we no longer have a class, just as if we removed the entire frame of a building. You still have all the furnitures left, but you can't live in it).
