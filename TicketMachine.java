@@ -17,6 +17,8 @@ class TicketMachine
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
+    // The total amount of status of the machine?
+    private int status;
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -28,6 +30,7 @@ class TicketMachine
         price = cost;
         balance = 0;
         total = 0;
+        status = 0;
     }
 
     /**
@@ -53,6 +56,14 @@ class TicketMachine
     public void insertMoney(int amount)
     {
         balance = balance + amount;
+    }
+    
+    /**
+     * Get the status of the Ticket Machine.
+     */
+    public int status()
+    {
+        return status;
     }
 
     /**
