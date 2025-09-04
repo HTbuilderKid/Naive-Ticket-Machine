@@ -21,13 +21,22 @@ class TicketMachine
     private int status;
 
     /**
-     * Create a machine that issues tickets of the given price.
+     * Create a machine that issues tickets of a set price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
     public TicketMachine()
     {
         price = 1000;
+        balance = 0;
+        total = 0;
+        status = 0;
+    }
+
+    public TicketMachine(int cost)
+    
+    {
+        price = cost;
         balance = 0;
         total = 0;
         status = 0;
