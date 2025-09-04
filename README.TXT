@@ -69,3 +69,9 @@
 42. No, they do not return the same price, as they do not have the same ticket price when we created them. This is because they are different instances of the same thing. 
 
 43. Yes, the printf prints out exactly the same thing as before. From what I've seen and tested, %d seems to be used to add a number (int). Since the price is at the end of the line, but is still printed in the exact same place on the terminal, I'm assuming that %d basically gets replaced by the int(?). %n I really had no idea, so I had to do a quick search online, and I found out that it means newline, used to go to the next line, so its use here is to jump to the next line after printing out "cents."
+
+44. It now no longer asks you to input the price when you create a new TicketMachine object.
+
+45. You now have 2 options when creating a TicketMachine, either make it so that the price is a set amount or input the price manually.
+
+
