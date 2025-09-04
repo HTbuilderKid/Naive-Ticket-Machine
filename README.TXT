@@ -74,4 +74,4 @@
 
 45. You now have 2 options when creating a TicketMachine, either make it so that the price is a set amount or input the price manually.
 
-
+46. The empty method is a mutator because it changes the state of the object.
