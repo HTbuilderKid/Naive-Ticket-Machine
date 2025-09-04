@@ -40,7 +40,7 @@
 
 27.
 
-28.
+28. getPrice uses 'public int', while printTicket uses 'public void'. This is because getPrice needs to return a value (int), while printTicket's goal isn't to return something (void).
 
 31. score = score + points;
 
@@ -58,7 +58,7 @@
   alive = status;
 }
 
-36.
+36. After modifying the constructor to make it so that price = price, I didn't notice any significant changes. It is still an int.
 
 37. The exact output is: My cat had green eyes.
 
