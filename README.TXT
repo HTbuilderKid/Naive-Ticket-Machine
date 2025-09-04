@@ -58,7 +58,7 @@
   alive = status;
 }
 
-36. After modifying the constructor to make it so that price = price, I didn't notice any significant changes. It is still an int.
+36. After modifying the constructor to make it so that price = price, any price related method only returns zero (instead of the actual price that we put in)
 
 37. The exact output is: My cat had green eyes.
 
