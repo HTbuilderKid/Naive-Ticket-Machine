@@ -25,12 +25,20 @@ class TicketMachine
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int price)
+    public TicketMachine(int cost)
     {
-        price = price;
+        price = cost;
         balance = 0;
         total = 0;
         status = 0;
+    }
+    
+        /**
+     * Shows the price of a ticket.
+     */
+    public void showPrice()
+    {
+        System.out.println("The price of a ticket is " + price + " cents.");
     }
 
     /**
