@@ -2,6 +2,8 @@
 
 3. Inserting too much money into the machine doesn't get you a refund. Even if you do not insert enough money (eg: Ticket price is 5$, but you only insert 1$, the machine still prints a ticket. This is because there is no code that verifies whether the amount of money inserted is = to the cost of a ticket.
 
+6. For the labClass class, it should be 'public class labClass' and for the Student, 'public class Student'
+
 7. Yes, it does matter. Writing 'class public TicketMachine' makes the class diagram criss-crossed with red (since it's an error).
 
 8. Yes, it is possible. You don't have to write private/public in order to make the outer wrapper function.
