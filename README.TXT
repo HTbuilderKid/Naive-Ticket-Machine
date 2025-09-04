@@ -38,7 +38,7 @@
 
 25. No, not at all. The name of the accessor method doesn't have to be the same as the name of the field associated with it in order for it to work.
 
-27.
+27. The error message is: "Not a statement"
 
 28. getPrice uses 'public int', while printTicket uses 'public void'. This is because getPrice needs to return a value (int), while printTicket's goal isn't to return something (void).
 
