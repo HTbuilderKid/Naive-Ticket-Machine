@@ -10,7 +10,7 @@
 
 9. You cannot delete the word "class" from the TicketMachine's outer wrapper because it basically removes the entire class (which means that we no longer have a class, just as if we removed the entire frame of a building. You still have all the furnitures left, but you can't live in it).
 
-10. 
+10. *This is answered after I've done many of the later steps, and I no longer remember what the original code looks like* The constructor is: public ticketMachine(int price), the fields are: private int price; private int balance; private int total; private int status;. The methods are: getPrice(), getAmount(), insertMoney(int amount), status(), getTotal(), prompt(), printTicket().
 
 11. The two main differences that, firstly, I've noticed are that the constructor needs to have the same name as the class it belongs to. The methods could be named 'RandomHotdog' and still work properly if the body functions properly, but the constructor will not. Secondly, the constructor does not have a return type (such as 'void', 'int', etc).
 
