@@ -65,3 +65,7 @@
 39. In that case, the price will no longer be an int (the actual prive that we've set, but simply: price
 
 40. Again, it will simply be printed out as: # price cents.
+
+42. No, they do not return the same price, as they do not have the same ticket price when we created them. This is because they are different instances of the same thing. 
+
+43. 
