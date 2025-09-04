@@ -120,4 +120,9 @@ class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    public void empty()
+    {
+        total = 0;
+    }
 }
